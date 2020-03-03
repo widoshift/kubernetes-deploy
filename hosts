@@ -1,0 +1,9 @@
+[masters]
+kubemaster ansible_host=10.70.1.10 ansible_user=root
+
+[workers]
+kubenode1 ansible_host=10.70.1.11 ansible_user=root
+kubenode2 ansible_host=10.70.1.12 ansible_user=root
+
+[all:vars]
+#ansible_python_interpreter=/usr/bin/python3
